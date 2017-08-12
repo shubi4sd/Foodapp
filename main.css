@@ -1,0 +1,224 @@
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+body {                                           /* body ki properties */
+    background-color: #F3F3E8;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.hero {                                                                           /* main list of restaurant properties */
+    background-image: url('https://anandipaliwal.files.wordpress.com/2015/06/food-table-relisted.jpg');
+    background-size: cover;
+    min-height: 300px;
+    border-radius: 4px;
+    color: white;
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#app .navbar {                        /* navba*r */
+    color: white;
+    background-color: #cb202d;
+}
+
+#app .navbar a {
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+#app .login {                                  /* login page ki styling ki properties */
+
+    background-color: #cb202d;
+    height: 100vh;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#app .login-form {                            /* login form ki properties */
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 1rem;
+    padding-top: 0;
+    border-radius: 4px;
+}
+input.ng-invalid.ng-dirty {                             /*input tag error showing property */
+            border: 1px solid red;
+        }
+
+.hero {
+    margin-bottom: 2rem;
+}
+
+.restaurant {                                             /*restaurant class m styling*/
+    background-color: white;
+    position: relative;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border-radius: 4px;
+}
+
+.rest-wrapper {
+    display: flex;
+    font-family: sans-serif;
+}
+
+.rest-wrapper .image {
+    margin-right: 1rem;
+}
+
+.rest-wrapper .image img {
+    border-radius: 4px;                                         /*restaurant image  ki styling*/
+}
+
+.rest-wrapper .rest-name {
+    font-size: 24px;
+    color: #cb202d;
+}
+
+.rest-wrapper .rest-category {
+    color: #89959B;
+    text-transform: uppercase;
+}
+
+.rest-wrapper .rest-address {
+    color: #89959B;
+}
+
+.rest-extra {                                                  /*restaurant styling*/
+
+    display: flex;
+    margin-top: 1rem;
+    border-top: 1px solid #e7e7e7;
+    padding: 1rem;
+}
+
+.rest-extra .type {
+    text-transform: uppercase;
+     color: #89959B;
+     flex: none;
+     margin-right: 2rem;
+}
+
+.restaurant .rating {               /*rating button styling*/
+    color: white;
+    background-color: #5BA829;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 18px;
+    border-radius: 4px;
+    letter-spacing: 2px;
+}
+
+
+.search-bar {                                    /*search bar ki styling*/
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+}
+
+.search-bar form {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar form .input-wrapper {
+   flex: 1;
+   margin-right: 1rem;
+}
+
+.bestDish .button {                                    /*best dish ki properties means styling ki uski*/
+    display: inline-block;
+    background-color:#cb202d;
+    color: white;
+    padding: 0.4rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#getIngredients-button{
+
+      /*  position: absolute;
+    margin-left: 172px;
+    margin-top: -27px*/
+}
+
+#getIngredients-button2{
+
+ /*       position: absolute;
+        margin-left: 296px;
+        /*margin-top: -27px;*/
+}
+
+.list-buttons{                      /*buttons of grocery shopping list*/
+
+    list-style: none;
+    margin-left: 40px;
+
+}
+#button1                                 /*get ingredients button ki styling*/
+{
+  background-color:#cb202d;
+  color: white;
+  margin-left:-200px;
+  margin-top: 50px;
+  border-radius: 20px;
+  padding: 0.4rem 1rem;
+
+}
+#button2                                       /* to do list ki styling */
+{
+
+    background-color:#cb202d;
+    color: white;
+    margin-left:50px;
+    border-radius: 20px;
+    padding: 0.4rem 1rem;
+
+
+  }
+#showbutton                              /*show button ki styling color change paddding etc  */
+{
+
+      background-color:#cb202d;
+      color: white;
+      position: absolute;
+      margin-left: 300px;
+      border-radius: 20px;
+      padding: 0.4rem 1rem;
+}
+#removebutton                              /* remove button ki styling  */
+{
+  background-color:#cb202d;
+  color: white;
+  position: absolute;
+  margin-left: 300px;
+    padding: 0.4rem 1rem;
+}
+.todolist                                     /*to so list */
+{
+  color:red;
+
+}
+.to-do-list{
+    color:grey;
+}
